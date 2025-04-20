@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="calculater.css">
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator" id="calculator">
+    <div class="window-controls">
+      <span class="window-btn minimize" onclick="minimizeCalc('_')"></span>
+      <span class="window-btn maximize" onclick="maximizeCalc('□')"></span>
+      <span class="window-btn close" onclick="clearDisplay()"></span>
+    </div>
+    <div id="display" class="display">0</div>
+    <div class="buttons">
+      <button class="btn c" onclick="clearDisplay()">C</button>
+      <button class="btn number" onclick="appendNumber(0)">0</button>
+      <button class="btn number" onclick="appendNumber(1)">1</button>
+      <button class="btn number" onclick="appendNumber(2)">2</button>
+      <button class="btn number" onclick="appendNumber(3)">3</button>
+      <button class="btn number" onclick="appendNumber(4)">4</button>
+      <button class="btn number" onclick="appendNumber(5)">5</button>
+      <button class="btn number" onclick="appendNumber(6)">6</button>
+      <button class="btn number" onclick="appendNumber(7)">7</button>
+      <button class="btn number" onclick="appendNumber(8)">8</button>
+      <button class="btn number" onclick="appendNumber(9)">9</button>
+      <button class="btn plus" onclick="setOperation('+')">+</button>
+      <button class="btn minus" onclick="setOperation('-')">-</button>
+      <button class="btn divide" onclick="setOperation('/')">/</button>
+      <button class="btn multiply" onclick="setOperation('*')">*</button>
+      <button class="btn history" onclick="showHistory()">History</button>
+      <button class="btn equal" onclick="calculate()">=</button>
+    </div>
+  </div>
+  <script src="calculater.js"></script>
+
+</body>
+</html>
