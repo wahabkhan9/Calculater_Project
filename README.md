@@ -2,7 +2,7 @@
 
 A simple calculator website built using **HTML**, **CSS**, and **JavaScript**.
 
-🚀 **Live Demo:** [Click here to view](https://etc.com)
+🚀 **Live Demo:** [Click here to view]([https://etc.com](https://wahabkhan9.github.io/Calculater_Project/))
 
 ---
 
