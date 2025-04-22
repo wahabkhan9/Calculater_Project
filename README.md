@@ -6,40 +6,20 @@ A simple calculator website built using **HTML**, **CSS**, and **JavaScript**.
 
 ---
 
+## 📄 Project Description
+
+This calculator supports basic arithmetic operations: **addition**, **subtraction**, **multiplication**, and **division**.
+
+### Extra Features:
+
+- 🧾 **History Button** – View previous calculations.
+- 🪟 **Maximize/Minimize Button** – Expand or shrink the calculator view for better usability.
+
+---
+
 ## 🚀 Run the Project Locally
 
-To run this project on your local machine, follow these steps:
+To run this project on your local machine:
 
 ```bash
-git clone <https://github.com/wahabkhan9/Calculater_Project.git>
-Then, open the project folder with Live Server in your code editor (e.g., VS Code).
-
-🤝 Contributing
-Contribution Guidelines
-If you'd like to contribute, please follow these steps:
-
-Fork the repository.
-
-Clone your forked repo:
-
-bash
-Copy
-Edit
-git clone <your-forked-repo-url>
-Create a new branch for your feature or fix:
-
-bash
-Copy
-Edit
-git checkout -b feature-name
-Make your changes.
-
-Commit and push your changes:
-
-bash
-Copy
-Edit
-git add .
-git commit -m "Describe your changes"
-git push origin feature-name
-Submit a Pull Request.
+git clone https://github.com/wahabkhan9/Calculater_Project.git
