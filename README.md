@@ -11,7 +11,7 @@ A simple calculator website built using **HTML**, **CSS**, and **JavaScript**.
 To run this project on your local machine, follow these steps:
 
 ```bash
-git clone <repo-url>
+git clone <https://github.com/wahabkhan9/Calculater_Project.git>
 Then, open the project folder with Live Server in your code editor (e.g., VS Code).
 
 🤝 Contributing
